@@ -602,8 +602,7 @@ progress {
   max-width: 100%;
   height: auto;
   img-fluid: hover{
-      max-width: 150%
-      height:auto;
+      transform: scale(1.5)
   }
 }
 
