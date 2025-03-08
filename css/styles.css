@@ -309,10 +309,6 @@ svg {
   vertical-align: middle;
 }
 
-img.custom:hover{
-    transform: scale(1.5);
-}
-
 table {
   caption-side: bottom;
   border-collapse: collapse;
@@ -605,6 +601,10 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+img-fluid:hover{
+    transform: scale(1.5);
 }
 
 .img-thumbnail {
