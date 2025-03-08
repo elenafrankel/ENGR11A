@@ -602,7 +602,8 @@ progress {
   max-width: 100%;
   height: auto;
   hover{
-      transform: scale(1.5);
+      max-width: 150%
+      height:auto;
   }
 }
 
