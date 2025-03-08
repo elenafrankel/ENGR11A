@@ -309,12 +309,6 @@ svg {
   vertical-align: middle;
 }
 
-img-fluid:hover,
-img-fluid:focus {
-    width: 200px;
-    height: 200px;
-}
-
 table {
   caption-side: bottom;
   border-collapse: collapse;
@@ -607,6 +601,10 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.img-fluid:hover{
+    transform: scale(1.5);
 }
 
 .img-thumbnail {
