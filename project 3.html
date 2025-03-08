@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Project 2</title>
+        <link rel="icon" type="image/x-icon" href="photos/Brandeis_University_seal.svg.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="project homepage.html">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Research</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Resume</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="masthead text-center text-white">
+            <div class="masthead-content">
+                <div class="container px-5">
+                    <h1 class="masthead-heading mb-0">Project 3</h1>
+                    <h2 class="masthead-subheading mb-0">Form and Fit for Electronics</h2>
+                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Learn More</a>
+                </div>
+            </div>
+            <div class="bg-circle-1 bg-circle"></div>
+            <div class="bg-circle-2 bg-circle"></div>
+            <div class="bg-circle-3 bg-circle"></div>
+            <div class="bg-circle-4 bg-circle"></div>
+        </header>
+        <!-- Content section 1-->
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-4 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="photos/cardDrawing.JPG" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-8 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-6">Assembly</h2>
+                            <p>     ...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section 2-->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-3 order-lg-1">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="photos/drawerDesign.png" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-3">
+                        <div class="p-5">
+                            <p>    Then I found a design on thangs.com for a simple playing card case in two parts: a drawer and a sleeve. I exported the STL file into Tinkercad and combined it with a basic heart shape that was included with Tinkercad.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="photos/sleeveDesign.png" alt="..." /></div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section 2-->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-3 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="photos/drawerSlice.png" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <p>     Next I sliced the design in PrusaSlicer and printed the design. The slicer did give me a warning about the structural integrity of the design, but going off of my experience in Project 1, I decided to ignore it and see what would happen. It didn't end up failing, and the printer was able to finish without any supports.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 order-lg-3">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="photos/sleeveSlice.png" alt="..." /></div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section 3-->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-3 order-lg-1">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="photos/openFinal.JPG" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5">
+                            <h2 class="display-6">Redesigning and Rethinking</h2>
+                            <p>     It was pretty easy to figure out how to use the software, especially since I had prior experience. However, when the first print was finished, the two parts of the case did not fit together. I went back to Tinkercad and saw that the sleeve and the heart were two different widths (in the z direction). Due to this inconsistency, the drawer was too tall to fit inside the heart shape, since the heart went through the sleeve in the design, making the sleeve slightly too short. To fix this, I copied the sleeve design and made it a hole instead of a solid, and placed it in the same space that the sleeve was originally, and combined the heart and the rectangular prism shaped hole into one shape. Then I put the solid sleeve back in place. Once again I sliced the design and sent it to the printer, and it was successful on the second try!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="photos/closedFinal.JPG" alt="..." /></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section 4-->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-3 order-lg-1">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="photos/lidDrawing.JPG" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-3">
+                        <div class="p-5">
+                            <h2 class="display-6">Transitioning to Fusion</h2>
+                            <p>     After using Tinkercad, it was a bit of a shock diving straight into the deep end with Autodesk Fusion. I found the user interface to be much less intuitive than Tinkercad, and experienced my fair share of frustration with the software. The second design I wanted to create was a decorative lid for a mason jar. I drew my design on paper once more to start off the design process. Next, I found a design for a lid, as well as a design for a flower that I liked, and exported them into Fusion.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="photos/lidDesign.png" alt="..." /></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section 5-->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-4 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="photos/lidSlice.png" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-8 order-lg-1">
+                        <div class="p-5">
+                            <p>     Once I was familiar with the general functionality of Fusion, it was fine for copying the flower design many times, and scaling them to be different sizes with different orientations. When I was happy with the layout, I sliced the design and printed it. I decided to try using supports this time, to make sure that the top of the lid was able to hold the flowers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section 6-->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-3 order-lg-1">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="photos/topFinal.JPG" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-3">
+                        <div class="p-5">
+                            <h2 class="display-6">Printing the Lid</h2>
+                            <p>     The first print of my lid was thwarted by a lack of filament, as the printer ran out halfway through, and was just printing air. I had to reload a new roll of filament into the printer, and try again. The second iteration went perfectly, and I was able to see how the supports attached and practice detaching them from my print.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="photos/bottomFinal.JPG" alt="..." /></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section 7-->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-3 order-lg-1">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="photos/lidFail.JPG" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5">
+                            <h2 class="display-6">Challenges and Future Improvements</h2>
+                            <p>     In addition to my challenges with filament running out, and parts not quite fitting together, I also noticed some stringy bits on the undersides of the card sleeve. This was likely because the printer was having to print over air to make the roof of the design, and it was unsupported. This is part of the reason why I opted to include supports in my slicing of the lid in PrusaSlicer. This print had no such issues as a result! Overall, both of my prints were eventually successful, but could definitely be modified further to optimize the designs. For instance, adding fill in the parts of the sleeve and drawer that are in the heart shape (everywhere except the rectangle where cards would go). Hopefully this would reduce the stringy aspects of this design. I could also try printing it on the side of the heart, but I would definitely be nervous about it falling over during printing, and would need supports. The lid design could be scaled up or down to fit different size jars and bottles in the future as well.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="photos/stringy.JPG" alt="..." /></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-black">
+            <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; Elena Frankel 2025</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
