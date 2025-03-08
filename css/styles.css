@@ -601,9 +601,10 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
-  img-fluid: hover{
-      transform: scale(1.5)
-  }
+}
+
+.img-fluid:hover{
+    transform: scale(1.5);
 }
 
 .img-thumbnail {
